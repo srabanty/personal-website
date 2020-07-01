@@ -21,11 +21,13 @@ img{
 }
 section{
     height: 600px;
-    padding-bottom: 130px;
+    padding-bottom: 90px;
 }
 h2{
     padding-top: 150px;
-    line-height: 0;
+    font-size: 36px;
+    margin-bottom: 0px;
+
 }
 h1{
     color: deeppink;
@@ -40,10 +42,17 @@ p{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg,deeppink,tomato);
+    border: 3px solid deeppink;
     padding:10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: bold;
+}
+.link-button:hover{
+    background-image: none;
+    border: 3px solid deeppink;
+    color: black;
+    transition: .5s;
 }
 .half-width img{
     width: 100%;
@@ -54,4 +63,185 @@ p{
 }
 .biography-area p{
     padding-top: 20px;
+}
+.latest-work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+}
+.latest-work-area h2{
+text-align: center;
+padding-bottom: 100px;
+}
+.latest-work-area .single-work{
+    float: left;
+    width: 28%;
+    margin-left: 52px;
+}
+.testimonial-area{
+    background-image: url("images//testimonial-bg.png");
+    background-size: cover;
+}
+.testimonial-area{
+    text-align: center;
+}
+.testimonial-area h2{
+    margin-bottom: 50px;
+}
+.testimonial-area h3{
+    margin-bottom: 0px;
+}
+.testimonial-area h4{
+    margin-top: 0px;
+    color: gray;
+}
+.testimonial-area p{
+color: darkslategrey;
+font-size: 20px;
+}
+#send-message{
+    width:52%;
+    height:200px;
+    background-image: linear-gradient(45deg,deeppink,tomato);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 20px;
+    
+}
+#send-message h4{
+    color: white;
+    padding-top: 30px;
+    font-weight: 600;
+}
+#send-message h2{
+    color: white;
+    padding-top: 0px;
+    font-weight: 500;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.experience-area .half-width h2{
+    padding-top: 0px;
+    text-align: left;
+    margin-bottom: 0px;
+    color: deeppink;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 300px;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+    position: relative;
+}
+#full-stack::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 40%;
+    right: 0;
+    top: 0;
+    background-color: tomato;
+}
+#full-stack::after{
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 4px;
+    right: 0;
+    top: 0;
+    background-color: tomato;
+}
+#junior-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    position: relative;
+}
+#junior-web::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 40%;
+    right: 0;
+    top: 0;
+    background-color: blue;
+}
+#junior-web::after{
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 4px;
+    right: 0;
+    top: 0;
+    background-color: blue;
+}
+.skill-area{
+  text-align: center;
+  background-image: url("images/skill-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;  
+}
+.skill-area h2{
+text-align: center;
+margin-bottom: 50px;
+}
+.skill-area .skill-bar{
+    width: 60%;
+    margin: 0 auto;
+    height: 245px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px grey;
+    padding-top: 20px;
+    border: 7px solid gainsboro;
+}
+.skill-area .skill-bar h3{
+text-align: center;
+width: 95%;
+height: 30px;
+background-color: deeppink;
+color: white;
+padding-left: 30px;
+border:2px solid tomato;
+font-weight: 600;
+}
+.skill-area .skill-bar h3:nth-child(2){
+    text-align: center;
+    width: 80%;
+    height: 30px;
+    background-color: deeppink;
+    color: white;
+    padding-left: 30px;   
+}
+.skill-area .skill-bar h3:nth-child(3){
+    text-align: center;
+    width: 70%;
+    height: 30px;
+    background-color: deeppink;
+    color: white; 
+    padding-left: 30px;  
+}
+.skill-area .skill-bar h3:nth-child(4){
+    text-align: center;
+    width: 75%;
+    height: 30px;
+    background-color: deeppink;
+    color: white; 
+    padding-left: 30px;  
+}
+
+footer p{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 130px;
 }
